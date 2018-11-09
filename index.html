@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <title>Tugas 3 Bootstrap</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	  	 
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   
+<!--style-->
+	  <style>
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+	z-index: 5;
+    top: 0;
+}
+li {
+	float: left;
+		  }
+li a {
+   display: block;
+    color: #C9B131;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+  background-color: #C9B131;
+  color: black;
+	text-decoration: none;
+}
+.active {
+  background-color: #C9B131;
+  color: white;
+}
+.content {
+  padding: 16px;
+}
+/*		  carousel dari bootstrap*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+		  .kepala {
+			  font: small-caps;
+			  align-content: center;
+			  text-align: center;
+			  font-style: italic;
+			  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		  }
+	.jumbotron1 {
+			font-style: italic;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		width: 100%;
+		height: 400px;
+			padding: 0;
+			box-sizing: border-box;
+			text-align: center;
+			color: white;
+			background-color: #aaa;
+			background-image: url(img/outbond.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: relative;
+		}
+		.jumbotron1 h2 {
+			position: relative;
+		}
+		.jumbotron1 p {
+			position: relative;
+		}
+		  		.jumbotron2 {
+			font-style: italic;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			width: 100%;
+			height: 400px;
+			padding: 0;
+			box-sizing: border-box;
+			text-align: center;
+			color: white;
+			background-color: #aaa;
+			background-image: url(img/training.jpg);
+			background-size: cover;
+			position: relative;
+		}
+		.jumbotron2 h2 {
+			position: relative;
+		}
+		.jumbotron2 p {
+			position: relative;
+		}
+		  		.jumbotron3 {
+			font-style: italic;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			width: 100%;
+			height: 400px;
+			padding: 0;
+			box-sizing: border-box;
+			text-align: center;
+			color: white;
+			background-color: #aaa;
+			background-image: url(img/gd.png);
+			background-size: cover;
+			position: relative;
+		}
+		.jumbotron3 h2 {
+			position: relative;
+		}
+		.jumbotron3 p {
+			position: relative;
+		}
+		  		.jumbotron4 {
+			font-style: italic;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			width: 100%;
+			height: 400px;
+			padding: 0;
+			box-sizing: border-box;
+			text-align: center;
+			color: white;
+			background-color: #aaa;
+			background-image: url(img/thinking.jpg);
+			background-size: cover;
+			position: relative;
+		}
+		.jumbotron4 h2 {
+			position: relative;
+		}
+		.jumbotron4 p {
+			position: relative;
+		}
+		  .overlay {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			  padding: 20px;
+			opacity: 0.6;
+}
+		  .overlayo {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #C9B131;
+			  padding: 20px;
+			opacity: 0.6;	  
+}
+		  #footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background: #C9B131;
+}
+  </style>
+
+<!--
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+-->
+    <!-- Bootstrap -->
+
+	  
+  </head>
+  <body>
+	  
+<!--	  <embed src="music/sango - me de amor (baile flip).wav" autostart="true" loop="false" hidden="true">-->
+<!--
+	  <div class="container">
+		 <div class="row">
+-->
+<!--
+		  <div class="col-md-12 text-right">
+			  <p><button class="btn btn-primary btn-lg">Home</button> <button class="btn btn-primary btn-lg">About</button></p>
+-->
+  <!--div class="subnav"></div-->
+
+<!--  <div class="container">-->
+	 <div class="header">  <img src="img/logo.png" alt="logo1" width="100" ></div>
+
+		<ul>
+	
+  		<li><a class="active" href="D:/Codepolitan/Tugas3/index.html">Home</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/ourservices.html">Our Services</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/gallery.html">Gallery</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/location.html">Location</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/contactus.html">Contact Us</a></li>
+		</ul>
+
+	  
+<!--	  batas-->
+<!--
+		  		 <div class="row">
+		  <div class="col-md-12 img-responsive">
+			 <img src="img/header.png" width="1200" height="400" class="img-responsive" >
+			</div>
+		  </div>
+-->
+		  <div class="row">
+	<div class="col-md-13 img-responsive">
+	<div class="col-md-12 text-center">
+			  <h1 class="kepala">Biro Pengembangan Psikologi 'ANDA'</h1>
+		</div>
+			  			  <!--carousel gambar slide-->	
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="img/outbond.png" alt="outbond" width="600" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Outbond</h3>
+          <p>Outdoor activities and bond with your partners!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/training.jpg" alt="training" width="600" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Training</h3>
+          <p>Improve your overall skills</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/gd.png" alt="gd" width="600" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Group Discussion</h3>
+          <p>Socialize with others to achieve one goal</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/thinking.jpg" alt="thinking" width="600" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>IQ Test</h3>
+          <p>How smart are you?</p>
+        </div>
+		</div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  	</div>
+	</div>			  
+</div>
+	  <h1 class="kepala">Profil Perusahaan</h1>
+<!--carousel selesai	  -->
+<!--					  <br>-->
+		  <div class="jumbotron1 col-md-13 img-responsive">
+			  <p class="overlay">Biro Pengembangan Psikologi ‘ANDA’ atau disingkat ‘BPPA’ adalah suatu lembaga yang terdiri dari kelompok ahli Psikologi Industri dan Organisasi khususnya, yang bergerak secara professional dalam pelayanan jasa Psikologi praktis. Pada tahun-tahun terakhir ini, di Indonesia nampaknya pemakaian jasa Psikologi sudah disadari akan manfaatnya. </p>
+			</div>
+		  </div>
+<!--			<br>-->
+				  	<div class="row">
+		  <div class="jumbotron2 col-md-13 img-responsive">
+			  <p class="overlayo">Biro Pengembangan Psikologi Anda berdiri sejak tahun 1982, didasari oleh tuntutan yang datang dari masyarakat dan adanya keinginan untuk turut memberi sumbangsih di Bidang Psikologi, khususnya bidang Psikologi Industri dan Organisasi.
+</p>
+			</div>
+		  </div>
+<!--			<br>-->
+		  	  	<div class="row">
+		  <div class="jumbotron3 col-md-13 img-responsive">
+			  <p class="overlay">Riwayat berdirinya Biro Pengembangan Psikologi ‘Anda’ saat itu dimulai dari pengembangan dan perluasan pengenalan ilmu Psikologi yang saat itu usahanya adalah majalah psikologi umum (Majalah Psikologi “ANDA”). Hal tersebut adalah atas  gagasan Prof. Dr. Mulyono Gandadiputra (Alm) yang berdasarkan permintaan dan tantangan yang datang dari berbagai kalangan dan masyarakat luas, guna dapat memberikan pelayanan jasa Psikologi Industri dan Organisasi khususnya maupun jasa psikologi pada umumnya.
+</p>
+			</div>
+		  </div>
+<!--			<br>-->
+				  	<div class="row">
+		  <div class="jumbotron4 col-md-13 img-responsive">
+			  <p class="overlayo">Selanjutnya seiring  dengan jalannya waktu, kegiatan jasa psikologi tidak berhenti disitu saja bahkan menunjukkan adanya perkembangan yang pesat, maka muncullah satu kemauan yang besar untuk membentuk Biro Psikologi “ANDA” yang dikenal sebagai Yayasan Bina Psikologi, lalu diteruskan oleh Yayasan Pengembangan Psikologi “ANDA”, dan saat ini di bawah naungan PT. ANDA MANDIRI PRATAMA.
+</p>
+			</div>
+		  </div>
+			<br>
+		  <br>
+		  <br>
+			<!--		  ini footer -->
+		  <div class="row">
+			  <div class="col-md-13" align="center">
+			<p class="panel-footer">&copy; PT AMP 2018</p>
+				</div>
+		</div>
+<!--		  ini footer -->
+<!--	   <br>-->
+<!--</div>-->
+  </body>
+
+	  </html>

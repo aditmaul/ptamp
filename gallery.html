@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Tugas 3 Bootstrap</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+	<style>
+		 body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+	z-index: 5;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #C9B131;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C9B131;
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+    background-color: #C9B131;
+	color: white;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+		.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+		div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+				  .kepala {
+			  font: small-caps;
+			  align-content: center;
+			  text-align: center;
+			  font-style: italic;
+			  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		  }
+		
+	</style>
+	</head> 
+<body>
+ <div class="header">  <img src="img/logo.png" alt="logo1" width="100" ></div>
+
+		<ul>
+	
+  <li><a href="D:/Codepolitan/Tugas3/index.html">Home</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/ourservices.html">Our Services</a></li>
+	 <li><a class="active" href="D:/Codepolitan/Tugas3/gallery.html">Gallery</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/location.html">Location</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/contactus.html">Contact Us</a></li>
+		</ul>
+	
+	<h1 class="kepala">Gallery</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img/gd.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Group Discussion</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img/outbond.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Outbond</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/training.jpg">
+      <img src="img/training.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Training</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+    <img src="img/thinking.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"> IQ Test</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Foto-foto pelatihan Biro Pengembangan Psikologi 'ANDA'</p>
+</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+<div class="row">
+			  <div class="col-md-13" align="center">
+			<p class="panel-footer">&copy; PT AMP 2018</p>
+				</div>
+		</div>
+</body> 
+</html>

@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html> 
+<head>
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false" 
+           type="text/javascript"></script>
+	   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head> 
+	<style>
+		 body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+		z-index: 5;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #C9B131;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C9B131;
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+    background-color: #C9B131;
+	color: white;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+		.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+		
+	</style>
+<body onunload="GUnload()">
+ <div class="header">  <img src="img/logo.png" alt="logo1" width="100" ></div>
+
+		<ul>
+	
+  <li><a href="D:/Codepolitan/Tugas3/index.html">Home</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/ourservices.html">Our Services</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/gallery.html">Gallery</a></li>
+	 <li><a class="active" href="D:/Codepolitan/Tugas3/location.html">Location</a></li>
+	 <li><a href="D:/Codepolitan/Tugas3/contactus.html">Contact Us</a></li>
+		</ul>
+	
+    <div class="map-responsive">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.824488006128!2d106.818351!3d-6.170091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf4718c6b9443353!2sVOINDO+Jakarta+Pusat!5e0!3m2!1sen!2sid!4v1541748881570" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		  <div class="row">
+			  <div class="col-md-13" align="center">
+			<p class="panel-footer">&copy; PT AMP 2018</p>
+				</div>
+		</div>
+</body> 
+</html>
